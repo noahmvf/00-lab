@@ -22,10 +22,11 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I needed to replace 'const' with 'let' in variables of the code that needed to change at some point in the code. For example, on my 'i' variables, they needed to be converted to 'let' in order for them to be able to be incremented. The empty arrays also needed to be 'let' so that their variables could change as indexes are getting pushed into them. I found that any array that was getting pushed into or any variable that needed to be incremented, required a 'let'. Variables that did not need to be changed worked with the 'const'
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
+It went smoothly, and it is definitely easier on the typing fingers to use this method. I also notice that it reads better because the spaces instead of pluses make it more like human sentences
 
 (Put your answer here)
