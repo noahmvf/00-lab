@@ -5,6 +5,6 @@ I started with the base.css file, and ensured that only the most general element
 ---
 
 ##### Did you do any refactoring of the existing CSS? If so, briefly explain what you did and why.
-I didn't do any refactoring of the existing CSS because the page I produced after I moved all my CSS styles was the same as the starter-code.
+I refactored some of the ways in which the tags were targeted in the CSS. For example, changing 'main p' to 'article p' to ensure that if other 'p''s are added to the 'main' they won't all be styled the same. I also specified the 'nav' to be the 'header-nav' in case other navigation is to be added at some other point on the page.
 
 (Put your answer here)
