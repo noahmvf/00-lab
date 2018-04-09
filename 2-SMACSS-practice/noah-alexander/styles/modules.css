@@ -1,5 +1,3 @@
-
-
 #logo {
   float: left;
   padding-bottom: 25px;
@@ -26,14 +24,14 @@
   text-transform: uppercase;
 }
 
-hr {
+nav hr {
   clear: both;
   border: 0;
   height: 13px;
   background-image: url('img/hr-img.gif');
 }
 
-h2 {
+article h2 {
   margin-top: 50px;
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
@@ -55,7 +53,7 @@ h2 {
   float: right;
 }
 
-main p {
+article p {
   color: #333;
   font-size: 1.2em;
   line-height: 1.3em;
@@ -83,10 +81,6 @@ input {
   font-size: 1.3em;
   line-height: 31px;
 }
-
-
-
-
 
 aside h3 {
   padding-left: 100px;

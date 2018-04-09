@@ -4,15 +4,15 @@ nav, article, aside, footer section {
   width: 900px;
 }
 
-nav {
+header nav {
   margin-top: 25px;
 }
 
-nav ul {
+header nav ul {
   float: right;
 }
 
-nav li {
+header nav li {
   float: left;
   padding-right: 2px;
 }
